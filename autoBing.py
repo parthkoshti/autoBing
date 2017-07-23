@@ -40,9 +40,3 @@ for i in range(iterations):
     x = bing2()
 
 ctypes.windll.user32.MessageBoxW(None, "The script has finished searching " + str(iterations + 1) + " times.", "bingCash", 0)
-<<<<<<< HEAD
-=======
-
-pyautogui.press('~', interval=2)
-pyautogui.hotkey('alt', 'shift', 'tab', interval=0)
->>>>>>> 25431d6ddf534c945a8be056735b8613d7fff34d
