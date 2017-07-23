@@ -5,7 +5,7 @@ import ctypes
 iterations = int(input('Enter number of searches: ')) - 1
 
 def bing():
-    text = open('text.txt')
+    text = open('SearchText.txt')
     words = text.read()
     sample = random.sample(words.split(), 6)
     search = ' '.join(sample)
@@ -21,7 +21,7 @@ def bing():
     pyautogui.press('pageup', interval=1)
 
 def bing2():
-    text = open('text.txt')
+    text = open('SearchText.txt')
     words = text.read()
     sample = random.sample(words.split(), 6)
     search = ' '.join(sample)
